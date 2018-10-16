@@ -1,0 +1,280 @@
+/* FONT */
+
+@font-face {
+	font-family: 'tngan';
+	src: url('fonts/tngan.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'partybusiness';
+	src: url('fonts/partybusiness.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'anirm___';
+	src: url('fonts/anirm___.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* texte body */
+
+body {
+  font-family: 'anirm___';
+	font-size: 2vh;
+}
+
+/* navbar */
+
+#navbar {
+	background-color: #ff6b00 !important;
+}
+
+#navbar a{
+	color: white;
+	font-size: 2vh;
+}
+
+#navbar p{
+	color: white;
+	font-size: 2vh;
+	padding: 0;
+}
+
+#navbar a:hover {
+	text-decoration: underline;
+}
+
+/* carousel */
+
+#carousel {
+
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+	font-size: 7vh;
+	font-family: "partybusiness"
+}
+
+.darkVador {
+	font-size: 7vh;
+}
+
+
+/* fellows */
+
+.deco1 {
+	font-size : 4vh;
+	font-family: "tngan";
+	color: #ff6b00;
+	text-align: center;
+}
+
+
+#fellows a {
+	display: flex;
+	text-align: center;
+	color: #ff6b00;
+	white-space: nowrap;
+}
+
+
+
+#cards {
+	justify-content: space-between;
+	margin-left: 4vh;
+}
+
+.pills {
+	margin: 3vh;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.image140 {
+margin-left: 20vh;
+}
+
+h3{
+		margin-left: 6vh;
+}
+
+.para2 {
+	margin-left: 4vh;
+}
+
+
+h4{
+		margin-left: 6vh;
+}
+
+.bouttonContact {
+
+ align-items: center;
+}
+
+.underline {
+	text-decoration: underline;
+	font-size: 12px;
+
+}
+
+#bouttonContact {
+	margin-top: 5vh;
+}
+
+.flotte {
+	float: right;
+}
+
+.imageJoinArmy {
+	float: left;
+	margin-left: 5vh;
+	margin-top: 3vh;
+}
+
+.texte {
+float: right;
+}
+
+#bouttonContact2 {
+	margin: 5vh;
+}
+
+.page-footer{
+	background-color: #252525;
+}
+
+
+/* cards */
+
+
+
+.cardFellows {
+	height: 100%;
+	border: 4px solid black
+
+}
+
+.cardBodyFellows {
+	background-color: black;
+}
+
+.cardBodyFellows p {
+	font-size: 3rem;
+	color: #e0e0e0;
+	font-family: "partybusiness";
+}
+
+.card-img-top {
+	opacity: 0.8;
+	filter: brightness(50%);
+}
+
+.card-img-top:hover {
+	opacity: 1;
+	filter: brightness(100%);
+	cursor: pointer;
+}
+
+.ajust {
+	position: relative;
+}
+
+.rewards {
+	position: absolute;
+	top: 5%;
+	left : 50%;
+	transform: translate(-50%, -10%);
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 10px;
+	padding: 5px;
+
+}
+
+.rewards span {
+	color: #ff6b00;
+	font-size: 1.5rem;
+}
+
+.nameFellows {
+	color: white;
+	font-size: 4rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "partybusiness"
+}
+
+
+
+
+#dead {
+
+	font-size: 5vh;
+	position: absolute;
+	top : 10%;
+	left : 50%;
+	transform: translate(-50%);
+	color: #ff6b00;
+}
+
+#gimli {
+	text-decoration: line-through;
+	text-decoration-color: #ff6b00;
+}
+
+.card:hover .rewards{
+	display: none;
+}
+
+.card:hover #dead {
+	display: none;
+}
+
+.card:hover .nameFellows {
+	top: 80%;
+	font-size: 2rem;
+}
+
+#sections{
+	background-image:url(images/bg_dark.png);
+	color: white;
+}
+
+/* hunters */
+
+.media-body {
+	margin: 2vh;
+	padding: 2vh;
+
+}
+
+/* section2 */
+
+#section2{
+	background-image:url(images/bg_dark.png);
+}
+
+.leGollum{
+	width: 200px;
+	height: 200px;
+	margin-left: 3%;
+}
+.card-header{
+	background-color: #ff6b00;
+	color: white;
+}
+
+.h4 {
+	color:inherit;
+}
